@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
 
-const LOG_URL = "http://localhost:5000/auth/login";
+const LOG_URL = "https://mern2024-ten.vercel.app/auth/login";
 
 function Login() {
   const [user, setUser] = useState({
