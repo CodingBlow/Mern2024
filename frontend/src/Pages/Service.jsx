@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Service() {
-  const SERVICE_URI = "http://localhost:5000/api/service";
+  const SERVICE_URI = "https://mern2024-ten.vercel.app/api/service";
 
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
