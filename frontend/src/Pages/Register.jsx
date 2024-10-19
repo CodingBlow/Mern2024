@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { toast } from "react-toastify";
 
-const REG_URL = "http://localhost:5000/auth/register";
+const REG_URL = "https://mern2024-ten.vercel.app/auth/register";
 
 function Register() {
   const [user, setUser] = useState({
