@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAuth } from "../store/auth";
 
-const CONT_URL = "http://localhost:5000/api/contact";
+const CONT_URL = "https://mern2024-ten.vercel.app/api/contact";
 
 function Contact() {
   const [formData, setFormData] = useState({
